@@ -13,3 +13,172 @@ body {
 main {
   display: block;
 }
+
+.bg-img-1 {
+  width: 128px;
+  height: 128px;
+
+  background-image: url("../img/bg-image.png");
+  background-size: 128px;
+  background-repeat: no-repeat;
+}
+
+.bg-img-2 {
+  width: 128px;
+  height: 128px;
+
+  background-image: url("../img/bg-image.svg");
+  background-size: 128px;
+  background-repeat: no-repeat;
+}
+
+.bg-img-3 {
+  $svg-base64: "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9InN2ZyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAxMjggMTI4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxMjggMTI4OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHN0eWxlIHR5cGU9InRleHQvY3NzIj4uc3Qwe2ZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO2ZpbGw6IzMzMzMzMzt9PC9zdHlsZT48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMSwxYzEwLDAsMjAsMCwzMCwwYzAsNS4zLDAsMTAuNywwLDE2YzAuNywwLDEuMywwLDIsMGMwLTUuMywwLTEwLjcsMC0xNmMxMCwwLDIwLDAsMzAsMGMwLDE1LjMsMCwzMC43LDAsNDZjLTEwLjcsMC0yMS4zLDAtMzIsMGMwLDAuNywwLDEuMywwLDJjMjIsMCw0NCwwLDY2LDBjMC0wLjcsMC0xLjMsMC0yYy0xMC43LDAtMjEuMywwLTMyLDBjMC0xNS4zLDAtMzAuNywwLTQ2YzkuNywwLDE5LjMsMCwyOSwwYzAsNS4zLDAsMTAuNywwLDE2YzAuNywwLDEuMywwLDIsMGMwLTUuMywwLTEwLjcsMC0xNmMxMC4zLDAsMjAuNywwLDMxLDBjMCw0MiwwLDg0LDAsMTI2Yy0xMCwwLTIwLDAtMzAsMGMwLTUuMywwLTEwLjcsMC0xNmMtMC43LDAtMS4zLDAtMiwwYzAsNS4zLDAsMTAuNywwLDE2Yy0xMCwwLTIwLDAtMzAsMGMwLTE1LjMsMC0zMC43LDAtNDZjMTAuNywwLDIxLjMsMCwzMiwwYzAtMC43LDAtMS4zLDAtMmMtMjIsMC00NCwwLTY2LDBjMCwwLjcsMCwxLjMsMCwyYzEwLjcsMCwyMS4zLDAsMzIsMGMwLDE1LjMsMCwzMC43LDAsNDZjLTkuNywwLTE5LjMsMC0yOSwwYzAtNS4zLDAtMTAuNywwLTE2Yy0wLjcsMC0xLjMsMC0yLDBjMCw1LjMsMCwxMC43LDAsMTZjLTEwLjMsMC0yMC43LDAtMzEsMEMxLDg1LDEsNDMsMSwxeiIvPjwvc3ZnPg==";
+
+  width: 128px;
+  height: 128px;
+
+  background-image: url("data:image/svg+xml;base64,#{$svg-base64}");
+  background-size: 128px;
+  background-repeat: no-repeat;
+}
+
+.bg-img-4 {
+  $svg: '<?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 128 128" style="enable-background:new 0 0 128 128;" xml:space="preserve"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#333333;}</style><path class="st0" d="M1,1c10,0,20,0,30,0c0,5.3,0,10.7,0,16c0.7,0,1.3,0,2,0c0-5.3,0-10.7,0-16c10,0,20,0,30,0c0,15.3,0,30.7,0,46c-10.7,0-21.3,0-32,0c0,0.7,0,1.3,0,2c22,0,44,0,66,0c0-0.7,0-1.3,0-2c-10.7,0-21.3,0-32,0c0-15.3,0-30.7,0-46c9.7,0,19.3,0,29,0c0,5.3,0,10.7,0,16c0.7,0,1.3,0,2,0c0-5.3,0-10.7,0-16c10.3,0,20.7,0,31,0c0,42,0,84,0,126c-10,0-20,0-30,0c0-5.3,0-10.7,0-16c-0.7,0-1.3,0-2,0c0,5.3,0,10.7,0,16c-10,0-20,0-30,0c0-15.3,0-30.7,0-46c10.7,0,21.3,0,32,0c0-0.7,0-1.3,0-2c-22,0-44,0-66,0c0,0.7,0,1.3,0,2c10.7,0,21.3,0,32,0c0,15.3,0,30.7,0,46c-9.7,0-19.3,0-29,0c0-5.3,0-10.7,0-16c-0.7,0-1.3,0-2,0c0,5.3,0,10.7,0,16c-10.3,0-20.7,0-31,0C1,85,1,43,1,1z"/></svg>';
+  width: 128px;
+  height: 128px;
+
+  background-image: url("data:image/svg+xml;utf8,#{$svg}");
+  background-size: 128px;
+  background-repeat: no-repeat;
+}
+
+.bg-img-5 {
+  $svg: '<?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 128 128" style="enable-background:new 0 0 128 128;" xml:space="preserve"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#333333;}</style><path class="st0" d="M1,1c10,0,20,0,30,0c0,5.3,0,10.7,0,16c0.7,0,1.3,0,2,0c0-5.3,0-10.7,0-16c10,0,20,0,30,0c0,15.3,0,30.7,0,46c-10.7,0-21.3,0-32,0c0,0.7,0,1.3,0,2c22,0,44,0,66,0c0-0.7,0-1.3,0-2c-10.7,0-21.3,0-32,0c0-15.3,0-30.7,0-46c9.7,0,19.3,0,29,0c0,5.3,0,10.7,0,16c0.7,0,1.3,0,2,0c0-5.3,0-10.7,0-16c10.3,0,20.7,0,31,0c0,42,0,84,0,126c-10,0-20,0-30,0c0-5.3,0-10.7,0-16c-0.7,0-1.3,0-2,0c0,5.3,0,10.7,0,16c-10,0-20,0-30,0c0-15.3,0-30.7,0-46c10.7,0,21.3,0,32,0c0-0.7,0-1.3,0-2c-22,0-44,0-66,0c0,0.7,0,1.3,0,2c10.7,0,21.3,0,32,0c0,15.3,0,30.7,0,46c-9.7,0-19.3,0-29,0c0-5.3,0-10.7,0-16c-0.7,0-1.3,0-2,0c0,5.3,0,10.7,0,16c-10.3,0-20.7,0-31,0C1,85,1,43,1,1z"/></svg>';
+  width: 128px;
+  height: 128px;
+
+  background-image: url("data:image/svg+xml,#{$svg}");
+  background-size: 128px;
+  background-repeat: no-repeat;
+}
+
+@mixin color-bg-img($color: #000000) {
+  $svg: '<?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 128 128" style="enable-background:new 0 0 128 128;" xml:space="preserve"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#{$color};}</style><path class="st0" d="M1,1c10,0,20,0,30,0c0,5.3,0,10.7,0,16c0.7,0,1.3,0,2,0c0-5.3,0-10.7,0-16c10,0,20,0,30,0c0,15.3,0,30.7,0,46c-10.7,0-21.3,0-32,0c0,0.7,0,1.3,0,2c22,0,44,0,66,0c0-0.7,0-1.3,0-2c-10.7,0-21.3,0-32,0c0-15.3,0-30.7,0-46c9.7,0,19.3,0,29,0c0,5.3,0,10.7,0,16c0.7,0,1.3,0,2,0c0-5.3,0-10.7,0-16c10.3,0,20.7,0,31,0c0,42,0,84,0,126c-10,0-20,0-30,0c0-5.3,0-10.7,0-16c-0.7,0-1.3,0-2,0c0,5.3,0,10.7,0,16c-10,0-20,0-30,0c0-15.3,0-30.7,0-46c10.7,0,21.3,0,32,0c0-0.7,0-1.3,0-2c-22,0-44,0-66,0c0,0.7,0,1.3,0,2c10.7,0,21.3,0,32,0c0,15.3,0,30.7,0,46c-9.7,0-19.3,0-29,0c0-5.3,0-10.7,0-16c-0.7,0-1.3,0-2,0c0,5.3,0,10.7,0,16c-10.3,0-20.7,0-31,0C1,85,1,43,1,1z"/></svg>';
+  background-image: url("data:image/svg+xml;utf8,#{$svg}");
+}
+
+.bg-img-6 {
+  width: 128px;
+  height: 128px;
+
+  @include color-bg-img(#f00);
+  background-size: 128px;
+  background-repeat: no-repeat;
+}
+
+.bg-img-7 {
+  width: 128px;
+  height: 128px;
+
+  @include color-bg-img(#0f0);
+  background-size: 128px;
+  background-repeat: no-repeat;
+}
+
+@function get-svg($svg) {
+  @return url("data:image/svg+xml,#{$svg}");
+}
+
+// $colorは #rrggbb の形式で与える
+@mixin border-img($color) {
+  $color-encoded: "%23#{str-slice(""+$color, 2)}";
+  $svg-encoded: "%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%3Csvg%20version%3D%221.1%22%20id%3D%22svg%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20width%3D%2252%22%20height%3D%2252%22%20style%3D%22enable-background%3Anew%200%200%2052%2052%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E.st0%7Bopacity%3A0.3%3Benable-background%3Anew%20%20%20%20%3B%7D.st1%7Bfill%3A#{$color-encoded}%3B%7D.st2%7Bfill%3A%23FFFFFF%3B%7D%3C%2Fstyle%3E%3Cpolygon%20class%3D%22st0%22%20points%3D%226%2C52%206%2C50%204%2C50%204%2C48%202%2C48%202%2C46%200%2C46%200%2C6%202%2C6%202%2C4%204%2C4%204%2C2%206%2C2%206%2C0%2046%2C0%2046%2C2%2048%2C2%2048%2C4%2050%2C4%2050%2C6%2052%2C6%2052%2C46%2050%2C46%2050%2C48%2048%2C48%2048%2C50%2046%2C50%2046%2C52%20%22%2F%3E%3Cpath%20class%3D%22st1%22%20d%3D%22M49%2C7V5h-2V3h-2V1H7v2H5v2H3v2H1v38h2v2h2v2h2v2h38v-2h2v-2h2v-2h2V7H49z%20M48%2C43h-2v2h-2v2H8v-2H6v-2H4V9h2V7h2V5h36v2h2v2h2V43z%22%2F%3E%3Cpath%20class%3D%22st2%22%20d%3D%22M8%2C5c0%2C0.7%2C0%2C1.3%2C0%2C2C7.3%2C7%2C6.7%2C7%2C6%2C7c0%2C0.7%2C0%2C1.3%2C0%2C2C5.3%2C9%2C4.7%2C9%2C4%2C9c0%2C11.3%2C0%2C22.7%2C0%2C34c0.7%2C0%2C1.3%2C0%2C2%2C0c0%2C0.7%2C0%2C1.3%2C0%2C2c0.7%2C0%2C1.3%2C0%2C2%2C0c0%2C0.7%2C0%2C1.3%2C0%2C2c12%2C0%2C24%2C0%2C36%2C0c0-0.7%2C0-1.3%2C0-2c0.7%2C0%2C1.3%2C0%2C2%2C0c0-0.7%2C0-1.3%2C0-2c0.7%2C0%2C1.3%2C0%2C2%2C0c0-11.3%2C0-22.7%2C0-34c-0.7%2C0-1.3%2C0-2%2C0c0-0.7%2C0-1.3%2C0-2c-0.7%2C0-1.3%2C0-2%2C0c0-0.7%2C0-1.3%2C0-2C32%2C5%2C20%2C5%2C8%2C5z%22%2F%3E%3C%2Fsvg%3E";
+
+  border-image-source: url("data:image/svg+xml,#{$svg-encoded}");
+}
+
+%border-img {
+  width: 200px;
+  height: 200px;
+
+  border-image-slice: 20% fill;
+  border-image-width: 10px;
+  border-image-repeat: repeat;
+  border-style: solid;
+  border-width: 4px; 
+}
+
+.border-img-1 {
+  @extend %border-img;
+  border-image-source: url("../img/border-image.png");
+}
+
+.border-img-2 {
+  @extend %border-img;
+  border-image-source: url("../img/border-image.svg");
+}
+
+.border-img-3 {
+  @extend %border-img;
+  border-image-source: url("../img/border-image-wh.svg");
+}
+
+.border-img-4 {
+  $svg-base64: "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9InN2ZyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiICAgdmlld0JveD0iMCAwIDEwMCAxMDAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxMDAgMTAwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHN0eWxlIHR5cGU9InRleHQvY3NzIj4gIC5zdDB7ZmlsbDojMzMzMzMzO308L3N0eWxlPjxnPiAgPHBvbHlnb24gY2xhc3M9InN0MCIgcG9pbnRzPSIxMDAsOS45IDkwLjEsMCA5LjksMCAwLDkuOSAwLDkwLjEgOS45LDEwMCA5MC4xLDEwMCAxMDAsOTAuMSAgIi8+PC9nPjwvc3ZnPg==";
+
+  @extend %border-img;
+  border-image-source: url("data:image/svg+xml;base64,#{$svg-base64}");
+}
+
+.border-img-5 {
+  $svg: '<?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"   viewBox="0 0 100 100" width="100" height="100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><style type="text/css">  .st0{fill:#333333;}</style><g>  <polygon class="st0" points="100,9.9 90.1,0 9.9,0 0,9.9 0,90.1 9.9,100 90.1,100 100,90.1  "/></g></svg>';
+
+  @extend %border-img;
+  border-image-source: url("data:image/svg+xml;utf8,#{$svg}");
+}
+
+.border-img-6 {
+  $svg: '<?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"   viewBox="0 0 100 100" width="100" height="100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><style type="text/css">  .st0{fill:#333333;}</style><g>  <polygon class="st0" points="100,9.9 90.1,0 9.9,0 0,9.9 0,90.1 9.9,100 90.1,100 100,90.1  "/></g></svg>';
+
+  @extend %border-img;
+  border-image-source: url("data:image/svg+xml,#{$svg}");
+}
+
+@mixin color-border-img($color) {
+  $svg: '<?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"   viewBox="0 0 100 100" width="100" height="100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><style type="text/css">  .st0{fill:#{$color};}</style><g>  <polygon class="st0" points="100,9.9 90.1,0 9.9,0 0,9.9 0,90.1 9.9,100 90.1,100 100,90.1  "/></g></svg>';
+
+  border-image-source: url("data:image/svg+xml,#{$svg}");
+}
+
+.border-img-7 {
+  @extend %border-img;
+  @include color-border-img(#ff0000);
+}
+
+.border-img-8 {
+  $svg-encoded: '%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%3Csvg%20version%3D%221.1%22%20id%3D%22svg%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20%20viewBox%3D%220%200%20100%20100%22%20width%3D%22100%22%20height%3D%22100%22%20style%3D%22enable-background%3Anew%200%200%20100%20100%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%20%20.st0%7Bfill%3A%23333333%3B%7D%3C%2Fstyle%3E%3Cg%3E%20%20%3Cpolygon%20class%3D%22st0%22%20points%3D%22100%2C9.9%2090.1%2C0%209.9%2C0%200%2C9.9%200%2C90.1%209.9%2C100%2090.1%2C100%20100%2C90.1%20%20%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E';
+
+  @extend %border-img;
+  border-image-source: url("data:image/svg+xml;utf8,#{$svg-encoded}");
+}
+
+.border-img-9 {
+  $svg-encoded: '%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%3Csvg%20version%3D%221.1%22%20id%3D%22svg%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20%20viewBox%3D%220%200%20100%20100%22%20width%3D%22100%22%20height%3D%22100%22%20style%3D%22enable-background%3Anew%200%200%20100%20100%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%20%20.st0%7Bfill%3A%23333333%3B%7D%3C%2Fstyle%3E%3Cg%3E%20%20%3Cpolygon%20class%3D%22st0%22%20points%3D%22100%2C9.9%2090.1%2C0%209.9%2C0%200%2C9.9%200%2C90.1%209.9%2C100%2090.1%2C100%20100%2C90.1%20%20%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E';
+
+  @extend %border-img;
+  border-image-source: url("data:image/svg+xml,#{$svg-encoded}");
+}
+
+// $colorは #rrggbb の形式で与える
+@mixin color-border-img-encoded($color) {
+  $color-encoded: "%23#{str-slice(""+$color, 2)}";
+  $svg-encoded: '%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%3Csvg%20version%3D%221.1%22%20id%3D%22svg%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20%20viewBox%3D%220%200%20100%20100%22%20width%3D%22100%22%20height%3D%22100%22%20style%3D%22enable-background%3Anew%200%200%20100%20100%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%20%20.st0%7Bfill%3A#{$color-encoded}%3B%7D%3C%2Fstyle%3E%3Cg%3E%20%20%3Cpolygon%20class%3D%22st0%22%20points%3D%22100%2C9.9%2090.1%2C0%209.9%2C0%200%2C9.9%200%2C90.1%209.9%2C100%2090.1%2C100%20100%2C90.1%20%20%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E';
+
+  border-image-source: url("data:image/svg+xml,#{$svg-encoded}");
+}
+
+.border-img-10 {
+  @extend %border-img;
+  @include  color-border-img-encoded(#ff0000);
+}
