@@ -1,0 +1,14 @@
+{
+  "name": "base65536-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "IWABUCHI Yuuki",
+  "license": "MIT",
+  "devDependencies": {
+    "base65536": "^1.0.3"
+  }
+}
