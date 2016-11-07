@@ -27,7 +27,7 @@
 (function tweetBtn() {
   window.addEventListener('load', function() {
     var tweetElm = document.createElement('div');
-    tweetElm.innerHTML = '<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://butchi.github.io/sandbox/xhtml-share/" data-text="HTML Share" data-lang="ja">ツイート</a>';
+    tweetElm.innerHTML = '<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://butchi.github.io/sandbox/xhtml-share/" data-text="XHTML share button" data-lang="ja">ツイート</a>';
 
     document.querySelector('.twitter').appendChild(tweetElm);
 
