@@ -1,0 +1,15 @@
+ul {
+  padding: 0;
+}
+
+.list-share {
+  font-size: 0;
+}
+
+.list-share .item {
+  display: inline-block;
+}
+
+.list-share .item + .item {
+  margin-left: 10px;
+}
