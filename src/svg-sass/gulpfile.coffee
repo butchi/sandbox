@@ -6,7 +6,7 @@ pleeease = require 'gulp-pleeease'
 browserSync = require 'browser-sync'
 
 SRC = './src'
-DEST = '.'
+DEST = '../../docs/svg-sass'
 
 gulp.task 'sass', () ->
   gulp.src "#{SRC}/scss/style.scss"
