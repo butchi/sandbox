@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>LINEボタン設置例</title>
+
+  <meta property="og:title" content="LINEボタン設置例">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://butchi.github.io/sandbox/line-button/">
+  <meta property="og:image" content="http://butchi.github.io/sandbox/line-button/ogp.png">
+
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <p>
+      <a href="https://media.line.me/ja/how_to_install.html">公式ヘルプ</a>
+    </p>
+
+    <div class="list-share">
+      <span class="item line-classic">
+      </span>
+    </div>
+
+    <h2>LINEで送るボタン</h2>
+
+    <div class="list-share">
+      <span class="item line-share-a">
+        <div class="line-it-button" data-lang="ja" data-type="share-a" data-url="https://media.line.me/ja/how_to_install.html" style="display: none;"></div>
+      </span>
+      <span class="item line-share-b">
+        <div class="line-it-button" data-lang="ja" data-type="share-b" data-url="https://media.line.me/ja/how_to_install.html" style="display: none;"></div>
+      </span>
+      <span class="item line-share-c">
+        <div class="line-it-button" data-lang="ja" data-type="share-c" data-url="https://media.line.me/ja/how_to_install.html" style="display: none;"></div>
+      </span>
+      <span class="item line-share-d">
+        <div class="line-it-button" data-lang="ja" data-type="share-d" data-url="https://media.line.me/ja/how_to_install.html" style="display: none;"></div>
+      </span>
+      <span class="item line-share-e">
+        <div class="line-it-button" data-lang="ja" data-type="share-e" data-url="https://media.line.me/ja/how_to_install.html" style="display: none;"></div>
+      </span>
+    </div>
+
+    <div class="share-source" data-source="share"><!-- ここに埋め込みコードのソースが入ります --></div>
+
+
+    <h2>友だち追加ボタン</h2>
+    <div class="list-share">
+      <span class="item line-friend-with-home">
+        <div class="line-it-button" data-lang="ja" data-type="friend" data-lineid="@wob5830a" data-count="true" data-home="true" style="display: none;"></div>
+      </span>
+      <span class="item line-friend-with-count">
+        <div class="line-it-button" data-lang="ja" data-type="friend" data-lineid="@wob5830a" data-count="true" style="display: none;"></div>
+      </span>
+      <span class="item line-friend">
+        <div class="line-it-button" data-lang="ja" data-type="friend" data-lineid="@wob5830a" style="display: none;"></div>
+      </span>
+    </div>
+
+    <div class="share-source" data-source="friend"><!-- ここに埋め込みコードのソースが入ります --></div>
+
+
+    <h2>いいねボタン</h2>
+
+    <div class="list-share">
+      <span class="item line-like-with-share">
+        <div class="line-it-button" data-lang="ja" data-type="like" data-url="http://butchi.jp/" data-share="true" style="display: none;"></div>
+      </span>
+      <span class="item line-like">
+        <div class="line-it-button" data-lang="ja" data-type="like" data-url="http://butchi.jp/" style="display: none;"></div>
+      </span>
+      <span class="item line-like-with-lineid">
+        <div class="line-it-button" data-lang="ja" data-type="like" data-url="http://butchi.jp/" data-lineid="@lineteamjp" style="display: none;"></div>
+      </span>
+      <span class="item line-like-with-share-lineid">
+        <div class="line-it-button" data-lang="ja" data-type="like" data-url="http://butchi.jp/" data-share="true" data-lineid="@lineteamjp" style="display: none;"></div>
+      </span>
+    </div>
+
+    <div class="share-source" data-source="like"><!-- ここに埋め込みコードのソースが入ります --></div>
+  </div>
+
+  <!-- 以下のscriptタグ一緒に埋め込みます。1ページに複数のLINEで送るボタンを設置する場合、このscriptタグの記述は1回だけで大丈夫です。 -->
+  <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
+</body>
+
+</html>

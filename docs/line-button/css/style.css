@@ -1,0 +1,51 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.4rem;
+  font-family: sans-serif;
+}
+
+ul {
+  padding: 0;
+}
+
+.elm-textarea {
+  font-family: inherit;
+}
+
+.list-share {
+  font-size: 0;
+}
+
+.list-share + .list-share {
+  margin-top: 10px;
+}
+
+.list-share .item {
+  display: inline-block;
+}
+
+.list-share .item + .item {
+  margin-left: 10px;
+}
+
+.share-source {
+  margin-top: 10px;
+}
+
+@media screen and (max-width:640px) { 
+  .list-share .item {
+    display: block;
+  }
+
+  .list-share .item + .item {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .share-source {
+    display: none;
+  }
+}
