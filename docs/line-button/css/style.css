@@ -11,8 +11,16 @@ ul {
   padding: 0;
 }
 
-.elm-textarea {
+h2 {
+  font-size: 2.4rem;
+  color: #333;
+}
+
+textarea {
   font-family: inherit;
+
+  border: 1px solid #ddd;
+  box-shadow: 1px 1px 0px #999 inset;
 }
 
 .list-share {
