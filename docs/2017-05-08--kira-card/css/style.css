@@ -1,0 +1,8 @@
+.card {
+  width: 240px;
+  height: 240px;
+
+  background-repeat: repeat;
+  background-size: 30px;
+  background-image: url(../img/kira.jpg);
+}
